@@ -31,7 +31,8 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt'
 group :production do
-  gem 'mysql2', '~> 0.4.0'
+  #gem 'mysql2', '~> 0.4.0'
+  gem 'pg'
 end
 # gem 'bcrypt', '~> 3.1.7'
 
